@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Collaborator</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <header>
+        <p>
+            Управление рассылками
+        </p>
+        <p>
+            Здравствуйте, Андрей. Выберите, категории писем, от которых хотите отписаться. <br>
+            Но пожалуйста, исключите только те категории, которые действительно вас не интересуют. <br>
+            Мы обещаем слать только полезные письма где 😊
+        </p>
+    </header>
+
+    <main class="content">
+        <div class="item">
+            <p>
+                Общие уведомления
+            </p>
+        </div>
+        <div class="item">
+            <p>
+                Приветственная серия
+            </p>
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p>
+                    4 полезных и емких письма в течение месяца
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <p>
+                Образовательные вебинары
+            </p>
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p>
+                    Бесплатные вебинары проходят 1 раз в 2 недели. <br>
+                    Вы будете получать 2 письма с напоминанием <br>
+                    о предстоящем вебинаре
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <p>
+                Личные сообщения
+                <!-- <div class="info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="3.217" height="9" viewBox="0 0 3.217 9">
+                    <path id="Контур_15058" data-name="Контур 15058"
+                        d="M3.229-.639l-.088.375a7.757,7.757,0,0,1-.861.3,2.218,2.218,0,0,1-.551.085.934.934,0,0,1-.7-.243.832.832,0,0,1-.234-.6A1.781,1.781,0,0,1,.814-1q.023-.146.076-.369l.621-2.49q.047-.205.091-.439a2.219,2.219,0,0,0,.044-.4.633.633,0,0,0-.108-.437A.645.645,0,0,0,1.1-5.244,1.917,1.917,0,0,0,.753-5.2q-.214.041-.325.07l.088-.375a5.76,5.76,0,0,1,.82-.3,2.316,2.316,0,0,1,.574-.1.925.925,0,0,1,.7.229.857.857,0,0,1,.217.615,2.376,2.376,0,0,1-.023.287,2.978,2.978,0,0,1-.07.363L2.1-1.928q-.059.229-.1.448a1.914,1.914,0,0,0-.044.36.57.57,0,0,0,.149.457.76.76,0,0,0,.483.123,2.47,2.47,0,0,0,.319-.029A1.63,1.63,0,0,0,3.229-.639Zm.416-7.488a.86.86,0,0,1-.217.583.686.686,0,0,1-.539.249.676.676,0,0,1-.516-.237.781.781,0,0,1-.217-.542.813.813,0,0,1,.217-.562.672.672,0,0,1,.516-.24.712.712,0,0,1,.545.226A.744.744,0,0,1,3.645-8.127Z"
+                        transform="translate(-0.428 8.877)" fill="#b9b9ba" />
+                </svg>
+            </div> -->
+            </p>
+            <!-- <div class="info-txt">
+                <div class="item-q"></div>
+                <p>
+                    Письма об обновлениях
+                    и улучшениях платформы
+                </p>
+            </div> -->
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <div class="select">
+                    <input class="select__input" type="hidden" name="">
+                    <div class="select__head">Выберите</div>
+                    <ul class="select__list" style="display: none;">
+                        <li class="select__item">Мгновенно</li>
+                        <li class="select__item">1 раз в день</li>
+                        <li class="select__item">Отключить</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="item">
+            <p>
+                Уведомление по Сайтам
+            </p>
+        </div>
+
+        <div class="item">
+            <p>
+                Новости
+            </p>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div class="item">
+            <p class = "small">
+                Поисковые агенты
+            </p>
+        </div>
+
+        <div class="item">
+            <section>
+                <p>
+                    Бизнес
+                </p>
+                <div class="details">
+                    <div class="more">
+                        <p></p>
+                        <p>Seo</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <div class="more">
+                        <p></p>
+                        <p>Продвижение</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <div class="more">
+                        <p></p>
+                        <p>Аналитика</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <p class="details-btn">
+                        Детали
+                        <div class="show-modal">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sit.
+                            </p>
+                        </div>
+                    </p>
+
+
+                </div>
+            </section>
+
+
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p>
+                    Бесплатные вебинары проходят 1 раз в 2 недели. <br>
+                    Вы будете получать 2 письма с напоминанием <br>
+                    о предстоящем вебинаре
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <section>
+                <p>
+                    123
+                </p>
+                <div class="details">
+                    <div class="more">
+                        <p></p>
+                        <p>Seo</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <div class="more">
+                        <p></p>
+                        <p>Продвижение</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <div class="more" style="scale: 0;">
+                        <p></p>
+                        <p>Аналитика</p>
+                        <img src="img/close.png" alt="">
+                    </div>
+                    <p class="details-btn">
+                        Детали
+                    </p>
+
+                    <div class="show-modal">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="item">
+            <section>
+                <p>
+                    SEO
+                </p>
+                <div class="details">
+                    <div class="more">
+                        <p></p>
+                        <p>Seo</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <div class="more">
+                        <p></p>
+                        <p>Продвижение</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <div class="more">
+                        <p></p>
+                        <p>Аналитика</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <p class="details-btn">
+                        Детали
+                    </p>
+
+                    <div class="show-modal">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="item">
+            <section>
+                <p>
+                    Бурж ссылки
+                </p>
+                <div class="details">
+                    <div class="more">
+                        <p style="min-width: 90%;">Биржи ссылок: Не обнаружен</p>
+                        <img src="img/close.png" alt="" class="close">
+                    </div>
+                    <div class="more" style="scale: 0;">
+                        <p></p>
+                        <p>Анали</p>
+                        <img src="img/close.png" alt="">
+                    </div>
+                    <p class="details-btn">
+                        Детали
+                    </p>
+
+                    <div class="show-modal">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="item">
+            <p class = "small">
+                Рекламные компании
+            </p>
+        </div>
+
+        <div class="item">
+            <p>
+                Строительство домов в Москве
+            </p>
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <div class="select">
+                    <input class="select__input" type="hidden" name="">
+                    <div class="select__head">Выберите</div>
+                    <ul class="select__list" style="display: none;">
+                        <li class="select__item">Мгновенно</li>
+                        <li class="select__item">1 раз в день</li>
+                        <li class="select__item">Отключить</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <p>
+                Строительство домов в Москве
+            </p>
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <div class="select">
+                    <input class="select__input" type="hidden" name="">
+                    <div class="select__head">Выберите</div>
+                    <ul class="select__list" style="display: none;">
+                        <li class="select__item">Мгновенно</li>
+                        <li class="select__item">1 раз в день</li>
+                        <li class="select__item">Отключить</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <p>
+                Уведомления по Телеграму
+            </p>
+        </div>
+
+        <div class="item">
+            <p>
+                Новости
+            </p>
+
+            <div class="switch-about">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="btn-block">
+            <button class="reset">
+                По умолчанию
+            </button>
+            <button class="save">
+                Сохранить изменения
+            </button>
+        </div>
+
+        <div class="reset-modal">
+            <p>
+                Вы уверены ?
+            </p>
+            <div class="reset-btn-block">
+                <button class="confirm">
+                    Да
+                </button>
+                <button class="cancel">
+                    Нет
+                </button>
+            </div>
+        </div>
+
+        <div class="done">
+            <p>
+                Изменения успешно сохранены
+            </p>
+            <button class="ok">OK</button>
+        </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
